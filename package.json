@@ -1,0 +1,22 @@
+{
+    "name": "voxel-test-game",
+    "version": "0.1.0",
+    "description": "",
+    "dependencies": {
+        "voxel-engine": "",
+        "voxel-player": "",
+        "voxel-fly": "",
+        "voxel-highlight": "",
+        "voxel-perlin-terrain": "",
+        "voxel-sky": ""
+    },
+    "devDependencies": {
+        "browserify": "",
+        "beefy": "",
+        "uglify-js": "1.x"
+    },
+    "scripts": {
+        "start": "beefy index.js",
+        "prepublish": "browserify index.js | uglifyjs -c > bundle.js"
+    }
+}
