@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "",
     "dependencies": {
+        "three": "",
         "voxel-engine": "",
         "voxel-player": "",
         "voxel-fly": "",
